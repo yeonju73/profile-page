@@ -1,0 +1,68 @@
+#about {
+    width: 100%;
+    margin: 0 auto;   /* 가로 중앙 */
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+#profile {
+    box-shadow: 1px 1px 8px 1px gray;
+    margin: 20px auto; /*상하 20px margin, 가로중앙*/
+    padding-bottom: 40px;
+    width: 80%;
+    align-items: center;
+}
+
+#profile-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#profile-image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#profile-list ul {
+    list-style: none;
+}
+
+#profile-list ul li {
+  position: relative;
+  padding-left: 30px; /* 아이콘 자리 */
+  margin-bottom: 8px;
+}
+
+#profile-list .info li::before {
+  content: "🍎";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#profile-list .contact li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+
+  width: 20px;
+  height: 20px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#profile-list .contact li.github::before {
+    background-image: url("./images/github.png");
+}
+
+#profile-list .contact li.notion::before {
+    background-image: url("./images/notion.png");
+}

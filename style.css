@@ -1,3 +1,11 @@
+section {
+    width: 100%;
+    margin: 0 auto;   /* 가로 중앙 */
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 2px dashed #ceb8b8;
+}
+
 #introduction {
     text-align: center;
     padding-bottom: 20px;
@@ -7,12 +15,6 @@
     font-size: 14px;
     font-weight: 400;
     color: gray;
-}
-
-#about {
-    width: 100%;
-    margin: 0 auto;   /* 가로 중앙 */
-    align-items: center;
 }
 
 .title {
@@ -25,7 +27,7 @@
     box-shadow: 1px 1px 8px 1px gray;
     margin: 20px auto; /*상하 20px margin, 가로중앙*/
     padding-bottom: 40px;
-    width: 80%;
+    width: 50%;
     align-items: center;
 }
 
@@ -35,9 +37,8 @@
     align-items: center;
 }
 
-
 #profile-image {
-    width: 200px;
+    width: 25%;
     border-radius: 50%;
 }
 
@@ -77,4 +78,48 @@
 
 #profile-list .contact li.notion::before {
     background-image: url("./images/notion.png");
+}
+
+.project-card {
+    box-shadow: 1px 1px 8px 1px gray;
+    border-radius: 1rem;
+    margin: 20px auto;
+    padding: 20px;
+    width: 35%;
+    align-items: center;
+}
+
+.project-card .project-title {
+    margin: 5px 0px 10px 0px;
+}
+
+.project-card .project-period {
+    color: gray;
+    margin: 0;
+}
+
+.project-card .projcet-image {
+    box-shadow: 1px 1px 10px 1px rgb(213, 211, 211);
+}
+
+.project-card .projcet-image {
+    width: 70%;
+}
+
+.project-card .tech-stack-group {
+    display: flex;
+    align-items: center;
+}
+
+.tech-stack-group .tech-stack {
+    width: 10%;
+    margin: 3px;
+    text-align: center;
+    background-color: #ffc3c3;
+    border: none;
+    border-radius: 12px;
+}
+
+.tech-stack .tech-stack-name {
+    color: white;
 }

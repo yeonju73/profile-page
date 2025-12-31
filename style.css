@@ -1,3 +1,14 @@
+#introduction {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
 #about {
     width: 100%;
     margin: 0 auto;   /* 가로 중앙 */
@@ -6,6 +17,7 @@
 
 .title {
     text-align: center;
+    margin: 0;
     padding: 20px;
 }
 

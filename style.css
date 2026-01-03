@@ -143,3 +143,18 @@ section {
 .experience-detail-list {
     border-left: 2px solid gray;
 }
+
+.certification-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 가로 2칸 */
+    grid-template-rows: repeat(2, 1fr);    /* 세로 2칸 */
+    gap: 10%; /* 칸 사이 여백 */
+    width: 50%;
+    margin: 6% auto;
+}
+
+.certification-item {
+    border-radius: 5%;
+    padding: 6%;
+    box-shadow: 1px 1px 8px 1px gray;
+}

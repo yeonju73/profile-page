@@ -123,3 +123,23 @@ section {
 .tech-stack .tech-stack-name {
     color: white;
 }
+
+.experience-card { 
+    margin: 2%;
+}
+
+.experience-detail {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.experience-period {
+    width: 10%;
+    margin: 15px;
+    
+}
+
+.experience-detail-list {
+    border-left: 2px solid gray;
+}

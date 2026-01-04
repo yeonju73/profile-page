@@ -106,7 +106,7 @@ section {
     width: 70%;
 }
 
-.project-card .tech-stack-group {
+.tech-stack-group {
     display: flex;
     align-items: center;
 }
@@ -115,9 +115,10 @@ section {
     width: 13%;
     margin: 3px;
     text-align: center;
-    background-color: #ffc3c3;
+    background-color: rgb(244, 197, 197);
     border: none;
     border-radius: 12px;
+    padding: 4px 12px;
 }
 
 .tech-stack .tech-stack-name {
@@ -157,4 +158,12 @@ section {
     border-radius: 5%;
     padding: 6%;
     box-shadow: 1px 1px 8px 1px gray;
+}
+
+#skill-set {
+    margin: 3% 20%;
+    padding: 3%;
+    background-color: whitesmoke;
+    box-shadow: 1rem 1rem 1rem 0 rgba(68, 68, 68, .2);
+    border-radius: 1rem;
 }
